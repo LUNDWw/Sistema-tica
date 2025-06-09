@@ -59,3 +59,7 @@ Para executar:
 ```bash
 ./otica
 ```
+##👨‍🎓 Descrição
+Aluno: Lucas Eduardo Ribeiro Porto
+Curso: Sistema de informações
+
