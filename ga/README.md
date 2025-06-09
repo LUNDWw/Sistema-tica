@@ -31,6 +31,15 @@ Este projeto é um programa simples escrito em **C** que simula o atendimento em
 6. Após o primeiro cadastro, é possível buscar clientes por nome.
 7. O sistema permanece em loop até que o usuário escolha a opção "Finalizar".
 
+## 🎞 Prints
+  
+  ![cap 1](https://github.com/user-attachments/assets/3be36ec6-6f52-404a-9752-f8b421084095)
+  
+  ![cap 2](https://github.com/user-attachments/assets/61554871-d5b8-4049-90b8-8eb4da84f840)
+  
+  ![cap 3](https://github.com/user-attachments/assets/a36a33b8-bf75-4e27-b3e9-746c1f30e0e1)
+  
+
 ## 💡 Sugestões de melhoria
 
 - Armazenar os dados em um arquivo para persistência
