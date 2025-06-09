@@ -68,7 +68,12 @@ int main() {
             break;
         }
 
-        if (opcao == 5 && total_clientes > 0) {
+        if (opcao == 5) {
+            if (total_clientes == 0) {
+                printf("Nenhum cliente registrado ainda.\n");
+                continue;
+            }
+
             char nome_busca[TAM_NOME];
             int encontrado = 0;
             printf("Digite o nome do cliente: ");
@@ -80,8 +85,10 @@ int main() {
                 if (strcasecmp(clientes[i].nome, nome_busca) == 0) {
                     printf("Cliente: %s - Orçamento: R$ %.2f\n", clientes[i].nome, clientes[i].orcamento);
                     encontrado = 1;
+                    break;  // Corrigido: encerra ao encontrar
                 }
             }
+
             if (!encontrado) {
                 printf("Cliente não encontrado.\n");
             }
