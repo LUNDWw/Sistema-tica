@@ -40,7 +40,7 @@ int carregar_clientes(Cliente clientes[]) {
 
 int main() {
     Cliente clientes[MAX_CLIENTES];
-    int total_clientes = carregar_clientes(clientes);  // Carrega clientes ao iniciar
+    int total_clientes = carregar_clientes(clientes);  
     int opcao;
     char resposta[10];
 
@@ -64,7 +64,7 @@ int main() {
 
         if (opcao == 4) {
             printf("Encerrando o sistema. Obrigado!\n");
-            salvar_clientes(clientes, total_clientes);  // Salva ao encerrar
+            salvar_clientes(clientes, total_clientes);  
             break;
         }
 
@@ -85,7 +85,7 @@ int main() {
                 if (strcasecmp(clientes[i].nome, nome_busca) == 0) {
                     printf("Cliente: %s - Orçamento: R$ %.2f\n", clientes[i].nome, clientes[i].orcamento);
                     encontrado = 1;
-                    break;  // Corrigido: encerra ao encontrar
+                    break; 
                 }
             }
 
